@@ -31,7 +31,7 @@ function my_mousemove(e)
         ctx.moveTo(last_position_of_x,last_position_of_y);
 
         console.log("Current position of x and y coordinates = ");
-        console.log("x = " + current_position_of_x + "y = " + current_position_of_y); 
+        console.log("x = " + current_position_of_mouse_x + "y = " + current_position_of_mouse_y); 
         ctx.lineTo(current_position_of_mouse_x,current_position_of_mouse_y);
         ctx.stroke();      
     }
